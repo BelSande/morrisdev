@@ -1,6 +1,6 @@
 body {
   margin: 1vh 1vw;
-  background-color: #eeffee;
+  background-color: #bbc7fc; /*light blue*/
 }
 ul,
 fieldset,
@@ -16,7 +16,7 @@ li,
 legend {
   list-style-type: none;
   padding: 0.2em 0.5em;
-  background-color: #ccffcc;
+  background-color: #274df5; /*royal blue*/
 }
 li:nth-of-type(even) {
   background-color: inherit;

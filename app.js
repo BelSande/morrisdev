@@ -1,10 +1,10 @@
 const newPeriodFormEl = document.getElementsByTagName("form")[0];
 const startDateInputEl = document.getElementById("start-date");
 const endDateInputEl = document.getElementById("end-date");
-const pastPeriodContainer = document.getElementById("past-periods");
+const pastPeriodContainer = document.getElementById("past-dances");
 
 // Add the storage key as an app-wide constant
-const STORAGE_KEY = "period-tracker";
+const STORAGE_KEY = "dance-tracker";
 
 // Listen to form submissions.
 newPeriodFormEl.addEventListener("submit", (event) => {
@@ -50,7 +50,7 @@ function renderPastPeriods() {
     return;
   }
   pastPeriodContainer.textContent = "";
-  pastPeriodHeader.textContent = "Past periods";
+  pastPeriodHeader.textContent = "Past dances";
   periods.forEach((period) => {
     const periodEl = document.createElement("li");
     periodEl.textContent = `From ${formatDate(
@@ -65,7 +65,7 @@ function renderPastPeriods() {
 
 function formatDate(dateString) {
   const date = new Date(dateString);
-  return date.toLocaleDateString("en-US", { timeZone: "UTC" });
+  return date.toLocaleDateString("en-UK", { timeZone: "UTC" });
 }
 
 renderPastPeriods();
