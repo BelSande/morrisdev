@@ -6,11 +6,11 @@ const CACHE_NAME = `dance-builder-${VERSION}`;
 
 // The static resources that the app needs to function.
 const APP_STATIC_RESOURCES = [
-  "/",
-  "/index.html",
-  "/app.js",
-  "/style.css",
-  "/appstore-images/android/launchericon-48x48.png",
+  "./",
+  "./index.html",
+  "./app.js",
+  "./style.css",
+  "./appstore-images/android/launchericon-48x48.png",
 ];
 
 // On install, cache the static resources
@@ -46,7 +46,7 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   // As a single page app, direct app to always go to cached home page.
   if (event.request.mode === "navigate") {
-    event.respondWith(caches.match("/"));
+    event.respondWith(caches.match("./"));
     return;
   }
 
