@@ -1,27 +1,27 @@
 {
   "name": "Riot Dance Coordinator",
   "short_name": "Dance Co-ord",
-  "description": "An app for ely and Littleport Riot border morris side, to help coordinate dancers with dances when dancing out.",
+  "description": "An app for Ely and Littleport Riot border morris side, to help coordinate dancers with dances when dancing out.",
   "start_url": "...",
   "theme_color": "...",
   "background_color": "...",
   "display": "...",
   "icons": [
     {
-      "src": "circle.ico",
+      "src": "appstore-images/android/launchericon-48x48",
       "sizes": "48x48"
     },
     {
-      "src": "icons/circle.svg",
+      "src": "appstore-images/android/launchericon-72x72",
       "sizes": "72x72 96x96",
       "purpose": "maskable"
     },
     {
-      "src": "icons/tire.svg",
+      "src": "appstore-images/android/launchericon-144x144",
       "sizes": "128x128 256x256"
     },
     {
-      "src": "icons/wheel.svg",
+      "src": "appstore-images/android/launchericon-512x512",
       "sizes": "512x512"
     }
   ]
