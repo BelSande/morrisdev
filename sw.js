@@ -11,6 +11,9 @@ const APP_STATIC_RESOURCES = [
   "./app.js",
   "./style.css",
   "./appstore-images/android/launchericon-48x48.png",
+  "./appstore-images/android/launchericon-72x72.png",
+  "./appstore-images/android/launchericon-144x144.png",
+  "./appstore-images/android/launchericon-512x512.png",
   "./manifest.json"
 ];
 
