@@ -11,6 +11,7 @@ const APP_STATIC_RESOURCES = [
   "./app.js",
   "./style.css",
   "./appstore-images/android/launchericon-48x48.png",
+  "./manifest.json"
 ];
 
 // On install, cache the static resources
